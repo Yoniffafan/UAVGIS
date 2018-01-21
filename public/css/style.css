@@ -3,8 +3,10 @@
 	src: url("../fonts/SourceSansPro-Light.ttf");
 }
 body {
-	background: url("../img/background.png");
+	/*background: url("../img/background.png");*/
+	background-color: #222629;
 	font-family: sistem;
+	color:#86C232;
 }
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus, select:focus {
 	border-color: rgba(103, 150, 177, 0.8) !important;
@@ -73,7 +75,7 @@ i[class~="fa-"] {
 	padding-left: 15px;
 	border-radius: 4px;
 	border: 1px solid #ddd;
-	color: #666;
+	color: #86C232;
 }
 .judul-perihal-disposisi span {
 	margin-left: 25px;
@@ -97,7 +99,7 @@ i[class~="fa-"] {
 }
 .nav-admin-data .navbar-nav>li>a.text-muted {
 	font-weight: bold;
-	color: #666;
+	color: #86C232;
 }
 
 /* .nav-admin-data form i[class~=fa] {
@@ -340,7 +342,7 @@ i[class~="fa-"] {
 	background: url("../img/footer-bg.png");
 	padding: 30px;
 	text-align: center;
-	box-shadow: 0px -2px 4px #ccc, 0 -2px 8px 0px #666;
+	box-shadow: 0px -2px 4px #ccc, 0 -2px 8px 0px #86C232;
 }
 .tengah {
 	margin: 0 auto;
@@ -374,15 +376,15 @@ i[class~="fa-"] {
 .judul-head {
 	margin-top: 0px;
 	font-weight: bold;
-	color: #666;
-	text-shadow: 1px 1px 5px #aaa, -2px -2px 2px #fff;
+	color: #86C232;
+	text-shadow: 1px 1px 5px #61892F, -2px -2px 2px #fff;
 	font-size: 28px;
 }
 .judul-head2 {
 	margin-top: 0px;
 	font-weight: bold;
-	color: #666;
-	text-shadow: 2px 2px 5px #aaa, -2px -2px 5px #fff;
+	color: #86C232;
+	text-shadow: 2px 2px 5px #61892F, -2px -2px 5px #fff;
 }
 .head-depan {
 	padding: 20px;
