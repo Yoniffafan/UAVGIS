@@ -10,7 +10,17 @@
     <link href="css/style.css" rel="stylesheet">
       <link href="css/added.css" rel="stylesheet">
     <link href="css/datatable-bootstrap.css" rel="stylesheet">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+     <script type="text/javascript">
+         $(function() {
+                 $("#datepicker").datepicker({ dateFormat: "dd-mm-yy" }).val()
+         });
+     </script>
+
+
   </head>
   <body>
     <div class="container">
@@ -117,6 +127,7 @@
         <script src="js/added.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/datatable-bootstrap.js"></script>
+
 
   </body>
 </html>
