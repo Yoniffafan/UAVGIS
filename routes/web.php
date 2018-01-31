@@ -23,6 +23,8 @@ Route::get('/admin', function () {
 
 Route::get('/data', 'Webcontroller@show');
 
+Route::get('/dataadmin', 'Webcontroller@showadmindata');
+
 Route::get('/form', function () {
     return view('form');
 });

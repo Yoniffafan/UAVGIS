@@ -25,6 +25,12 @@ class Webcontroller extends Controller
     return view('map', ['fromDB' => $dariDB]);
   }
 
+  public function showadmindata()
+  {
+    $dariDB = DB::table('data')->get();
+
+    return view('admindata', ['fromDB' => $dariDB]);
+  }
 
 
   // public function showhome()

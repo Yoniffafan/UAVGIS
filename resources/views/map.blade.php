@@ -109,7 +109,7 @@ setMarkers(map, officeLocations);
 
 var officeLocations = [
 @foreach ($fromDB as $databakar)
-    ['{{ $databakar->nama }}', '{{ $databakar->lati }}', '{{ $databakar->longi }}' ],
+    ['{{ $databakar->nama }}', '{{ $databakar->lati }}', '{{ $databakar->longi }}', '{{ $databakar->tanggal }}', '{{ $databakar->ket }}' ],
 @endforeach
 ];
 
@@ -129,7 +129,8 @@ for (var i = 0; i < locations.length; i++) {
         '</div>'+
         '<h5 id="firstHeading" class="firstHeading">'+ office[0] + '</h5>'+
         '<div id="bodyContent">'+
-        '<a href=detail.php?id='+office[0]+'>Info Detail</a>'+
+        '<p>' + office[3]+' </p>'+
+        '<p>' + office[4]+' </p>'+
         '</div>'+
         '</div>';
 
